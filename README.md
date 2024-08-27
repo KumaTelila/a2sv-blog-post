@@ -19,12 +19,11 @@ In this task, I created a React component to represent a blog card, populated it
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/KumaTelila/a2sv-blog-post.git
-   cd a2sv-blog-post
    ```
 
 2. **Navigate to the Project Path:**
    ```bash
-   cd project-directory
+   cd a2sv-blog-post
    ```
 
 3. **Install Dependencies:**
@@ -34,7 +33,7 @@ In this task, I created a React component to represent a blog card, populated it
 
 4. **Run the Application:**
    ```bash
-   npm start
+   npm run dev
    ```
 
    Open your browser and navigate to `http://localhost:3000` to view the application.
