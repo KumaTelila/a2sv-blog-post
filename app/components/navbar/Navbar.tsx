@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center bg-white shadow-md h-[118px] px-6">
       <div className="flex shrink-0">
+        <Link href={"/"}>
         <Image src={"/assets/logo.svg"} width={197} height={50} alt="logo" />
+        </Link>
       </div>
       <div className="flex items-center font-semibold text-[#565656]">
         <ul className="flex items-center">

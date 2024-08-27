@@ -41,7 +41,7 @@ const BlogsCard = ({
             </div>
           </div>
         </div>
-        <Link href={`/description/${_id}`}>
+        <Link href={`/description?id=${_id}`}>
           <p className="text-[34px] font-bold">
             {title}
           </p>
