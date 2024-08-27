@@ -42,12 +42,11 @@ const BlogsCard = ({
           </div>
         </div>
         <Link href={`/description?id=${_id}`}>
-          <p className="text-[34px] font-bold">
-            {title}
-          </p>
-          <p className="text-[24px] text-[#737373] font-normal">
-            {description}
-          </p>
+          <p className="text-[34px] font-bold">{title}</p>
+          <p
+            className="text-[24px] text-[#737373] font-normal"
+            dangerouslySetInnerHTML={{ __html: description }}
+          ></p>
           <div className="flex gap-4 pt-4">
             {tags?.map((tag, index) => (
               <div
