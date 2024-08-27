@@ -17,7 +17,7 @@ const BlogsCard = ({
 }: BlogPost) => {
   return (
     <div className="max-md:flex-col flex px-20 items-center py-3 justify-between gap-6 border-t-2">
-      <div className="flex flex-col gap-10 w-3/4">
+      <div className="flex flex-col gap-6 w-3/4">
         <div className="flex gap-4">
           <div className="flex justify-center items-center ">
             <img
@@ -48,11 +48,11 @@ const BlogsCard = ({
           <p className="text-[24px] text-[#737373] font-normal">
             {description}
           </p>
-          <div className="flex gap-4">
+          <div className="flex gap-4 pt-4">
             {tags?.map((tag, index) => (
               <div
                 key={index}
-                className="flex  gap-2 justify-center items-center bg-[#D7D7D7] rounded-full min-w-40 h-14"
+                className="flex  gap-2 justify-center items-center bg-[#F5F5F5] rounded-full min-w-40 h-14"
               >
                 <p className="text-[19px] text-[#8E8E8E] font-semibold px-2">
                   {tag}

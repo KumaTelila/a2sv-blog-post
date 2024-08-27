@@ -6,6 +6,7 @@ import { BlogPost } from "../types/blogPost";
 import BlogsCard from "../components/blogs/BlogsCard";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
+import Header from "../components/blogs/Header";
 
 const BlogsPage = () => {
   const { data, isError, isLoading } = useGetAllblogsQuery(null);
@@ -23,8 +24,9 @@ const BlogsPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow">
-        <div className="flex flex-col gap-10">
+      <main className="flex-grow pt-[138px] px-6 md:px-20">
+        <Header />
+        <div className="flex flex-col gap-10 pt-14">
           {blogs.map((blog, index) => (
             <div key={index}>
               <BlogsCard
