@@ -42,12 +42,3 @@ In this task, I created a React component to represent a blog card, populated it
 
 ![](demo_image/Screenshot%20from%202024-08-27%2018-30-22.png)
 ![](demo_image/Screenshot%20from%202024-08-27%2018-30-35.png)
-
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-This README file provides a clear overview of your project, installation instructions, and usage details. Adjust the paths and any additional information as needed.
