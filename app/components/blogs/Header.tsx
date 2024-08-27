@@ -2,16 +2,23 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex max-md:flex-col justify-between max-md: gap-3 max-md:items-center">
+    <div className="flex justify-between items-center px-12">
       <div className="flex flex-col gap-1">
-        <div className="text-[32px] font-Poppins font-black">
-          <h1>Opportunities</h1>
+        <div className="text-[32px]  font-semibold">
+          <h1>Blogs</h1>
         </div>
       </div>
-      <div className="flex max-md:flex-col gap-5">
-        <div className="flex gap-2 text-base font-Epilogue text-[#7C8493]">
-          <h3>Add new Blog</h3>
+      <div className="flex max-md:flex-col gap-5 text-[20px]">
+        <div className="flex rounded-full border-2 h-16 w-96">
+          <input
+            type="text"
+            placeholder="Search ..."
+            className=" outline-none ml-6"
+          />
         </div>
+        <button className="flex items-center justify-center rounded-full font-semibold bg-[#264FAD] text-white h-16 w-48">
+          <h3>+ new Blog</h3>
+        </button>
       </div>
     </div>
   );

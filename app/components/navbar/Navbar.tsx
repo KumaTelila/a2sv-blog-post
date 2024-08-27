@@ -23,9 +23,9 @@ const Navbar = () => {
           <li className="px-4 text-[#3C3C3C] font-bold">
             <Link href={"/login"}>Login</Link>
           </li>
-          <li className="px-4 bg-[#264FAD] rounded-lg w-40 h-16 flex justify-center items-center text-white font-bold">
+          <button className="px-4 bg-[#264FAD] rounded-lg w-40 h-16 flex justify-center items-center text-white font-bold">
             <Link href={"/register"}>Donate</Link>
-          </li>
+          </button>
         </ul>
       </div>
     </div>
