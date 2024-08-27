@@ -5,11 +5,13 @@ import { dummy } from "./dummy";
 import RelatedBlogCard from "./RelatedBlogCard";
 import { useGetBlogByIdQuery } from "@/app/lib/features/blogSlice";
 import { BlogPost } from "@/app/types/blogPost";
+import { useSearchParams } from 'next/navigation'
 
 
 const Description = () => {
-  const queryId = new URLSearchParams(window.location.search).get("id");
-  const { data, isError, isLoading } = useGetBlogByIdQuery(queryId);
+  const params = useSearchParams()
+  const id = params.get('id')
+  const { data, isError, isLoading } = useGetBlogByIdQuery(id);
 
   if (isError) {
     return <div className="text-center text-3xl text-red-500">Error Loading this blog</div>;
