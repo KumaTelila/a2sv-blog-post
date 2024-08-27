@@ -6,12 +6,13 @@ import RelatedBlogCard from "./RelatedBlogCard";
 import { useGetBlogByIdQuery } from "@/app/lib/features/blogSlice";
 import { BlogPost } from "@/app/types/blogPost";
 
+
 const Description = () => {
   const queryId = new URLSearchParams(window.location.search).get("id");
   const { data, isError, isLoading } = useGetBlogByIdQuery(queryId);
 
   if (isError) {
-    return <div>Error</div>;
+    return <div className="text-center text-3xl text-red-500">Error Loading this blog</div>;
   }
   if (isLoading) {
     return <div>Loading...</div>;

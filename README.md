@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog Post Project and API Integration
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This repository contains a blog post application built with Next js and styled using Tailwind CSS. The application includes a blog card component and a dashboard to display blog posts. This project demonstrates proficiency in React component development, API data handling, and utilizing Tailwind CSS for styling.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Task: API Data Integration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In this task, I created a React component to represent a blog card, populated it with data fetched from an API, and styled it according to the provided design. Additionally, I developed the Blog Post Dashboard based on the given Figma file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Blog Card Component:** A  card displaying blog information, including the title, description, and author details.
+- **Dashboard:** A page showcasing multiple blog cards in a dashboard layout.
+- **Tailwind CSS Styling:** Applied Tailwind CSS classes to ensure the card and dashboard match the design specifications.
 
-## Learn More
+## Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/KumaTelila/a2sv-blog-post.git
+   cd a2sv-blog-post
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the Project Path:**
+   ```bash
+   cd project-directory
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+4. **Run the Application:**
+   ```bash
+   npm start
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Open your browser and navigate to `http://localhost:3000` to view the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Screenshots
+
+![](demo_image/Screenshot%20from%202024-08-27%2018-30-22.png)
+![](demo_image/Screenshot%20from%202024-08-27%2018-30-35.png)
+
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+This README file provides a clear overview of your project, installation instructions, and usage details. Adjust the paths and any additional information as needed.
