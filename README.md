@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a blog post application built with Next js and styled using Tailwind CSS. The application includes a blog card component and a dashboard to display blog posts. This project demonstrates proficiency in React component development, API data handling, and utilizing Tailwind CSS for styling.
+This repository contains a blog post application built with Next js and styled using Tailwind CSS. The application includes a blog card component and a page to display blog posts. This project demonstrates proficiency in React component development, API data handling, and utilizing Tailwind CSS for styling.
 
 ## Task: API Data Integration
 
@@ -42,3 +42,10 @@ In this task, I created a React component to represent a blog card, populated it
 
 ![](demo_image/Screenshot%20from%202024-08-27%2018-30-22.png)
 ![](demo_image/Screenshot%20from%202024-08-27%2018-30-35.png)
+![](demo_image/Screenshot%20from%202024-08-28%2017-41-33.png)
+![](demo_image/Screenshot%20from%202024-08-28%2017-42-11.png)
+![](demo_image/Screenshot%20from%202024-08-28%2018-07-42.png)
+![](demo_image/Screenshot%20from%202024-08-28%2018-07-51.png)
+![](demo_image/Screenshot%20from%202024-08-28%2018-07-58.png)
+![](demo_image/Screenshot%20from%202024-08-28%2018-08-02.png)
+![](demo_image/Screenshot%20from%202024-08-28%2018-08-21.png)
